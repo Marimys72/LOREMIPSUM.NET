@@ -127,7 +127,7 @@ body {
 
 .section-promo {
   padding-top: 20.3rem;
-  height: 72rem;
+  height: 82rem;
 }
 .section-promo .promo-wrapper .promo-wrapper__title {
   margin-bottom: 8rem;
@@ -558,5 +558,5 @@ body {
 }
 .footer .footer-wrapper .contacts-list a:hover {
   opacity: 0.5;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }/*# sourceMappingURL=style.css.map */
