@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: calc(100vw / 1920 * 10);
+}
+    
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: $color-base;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: normal;
+    overflow-x: hidden;
+    min-width: 32rem;
+}
+    
+.container {
+    max-width: 117.2rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/latobold.ttf") format("ttf");
+  src: url("../fonts/latobold.woff") format("woff");
+  src: url("../fonts/latobold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/latoheavy.ttf") format("ttf");
+  src: url("../fonts/latoheavy.woff") format("woff");
+  src: url("../fonts/latoheavy.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/latoregular.ttf") format("ttf");
+  src: url("../fonts/latoregular.woff") format("woff");
+  src: url("../fonts/latoregular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/latosemibold.ttf") format("ttf");
+  src: url("../fonts/latosemibold.woff") format("woff");
+  src: url("../fonts/latosemibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+$color-base: #000;
+$color-second: #3E9CDC;
+$color-main: #FFF;
+
+.promo-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 78rem;
+  span {
+    color: $color-second;
+  }
+}
+
+.title-order {
+  color: $color-main;
+  font-size: 3.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  span {
+    color: $color-second;
+  }
+}

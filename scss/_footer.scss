@@ -1,0 +1,91 @@
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #3D4050;
+    .footer-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .copyright {
+            font-size: 1.3rem;
+            color: $color-main;
+            span {
+                text-transform: uppercase;
+            }
+        }
+        .footer-wrapper__copyright {
+            position: relative;
+        }
+        .footer-wrapper__copyright::after {
+            content: "";
+            position: absolute;
+            background-image: url(../icons/footer-decor.svg);
+            background-repeat: no-repeat;
+            width: 0.1rem;
+            height: 1.8rem;
+            top: -0.1rem;
+            right: -4.033rem;
+        }
+        .payment-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 3.8rem;
+            .payment-list__box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #C3C3C3;
+                font-size: 1.3rem;
+            }
+            .payment-list__icon {
+                display: block;
+                width: 2rem;
+                height: 2rem;
+                margin-right: 1rem;
+            }
+        }
+        .footer-wrapper__payment-list {
+            position: relative;
+        }
+        .footer-wrapper__payment-list::after {
+            content: "";
+            position: absolute;
+            background-image: url(../icons/footer-decor.svg);
+            background-repeat: no-repeat;
+            width: 0.1rem;
+            height: 1.8rem;
+            top: 0.1rem;
+            right: -4.25rem;
+        }
+        .contacts-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 3.8rem;
+            .contacts-list__box {
+                display: flex;
+                align-items: center;
+            }
+            .contacts-list__icon {
+                display: block;
+                width: 2rem;
+                height: 2rem;
+                margin-right: 1rem;
+            }
+            .contacts-list__link {
+                display: inline-block;
+                color: $color-main;
+                font-size: 1.3rem;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            a:hover {
+                opacity: 0.5;
+                transition-duration: 0.3s;
+            }
+        }
+    }
+}
